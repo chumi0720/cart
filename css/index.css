@@ -1,0 +1,55 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'oxxo';
+    src:url('setofont.ttf');
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin:30px;
+}
+h1{
+    font-family: 'oxxo',serif;
+    src:url('setofont.ttf');
+    font-size:60px;
+    margin:35px 0;
+    color: rgb(12, 11, 12);
+    font-weight:1000;
+}
+p{
+width:600px;
+margin:20px;
+padding:10px;
+font-size:15px;
+color:rgb(22, 18, 16);
+}
+.btn{
+    margin-top:50px;
+    font-size:20px;
+    width: 150px;
+    height: 45px;
+    border-radius:10px;
+    border:2px solid white;
+    background-color: rgb(14, 13, 13);
+
+}
+.quantity{
+    font-size:30px;
+    margin:20px;
+    color:rgb(19, 17, 19);
+}
+select{
+    font-size:25px;
+    background-color: white;
+    border-radius:10px;
+    border:2px solid rgb(10, 10, 10);
+}
